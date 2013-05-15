@@ -1,0 +1,13 @@
+application: udacity-homework5-asciichan-map
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: udacity-homework5-asciichan-map.app
+
+libraries:                                                                      
+- name: jinja2                                                                  
+  version: latest                                                               
